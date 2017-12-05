@@ -1,0 +1,97 @@
+# mine
+resources/views/bootstrap
+public/js
+public/css
+public/fonts
+
+
+vendor/
+node_modules/
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+bootstrap/cache/
+storage/
+.env.*.php
+.env.php
+.env
+
+# Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
+.rocketeer/
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+app/Http/Controllers/TestController.php
+resources/assets/sass/bootstrap_popover.scss
+resources/assets/sass/joined.scss
+TODO.txt
+app/Http/resources/views/bootstrap/bones.blade.php
+app/Http/resources/views/bootstrap/paginate.blade.php
+app/Http/resources/views/bootstrap/grid.blade.php
+app/Http/resources/views/bootstrap/popover.blade.php
+app/Http/resources/views/bootstrap/navbar.blade.php
+app/Http/resources/assets/sass/joined.scss
+
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
