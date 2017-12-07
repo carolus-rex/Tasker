@@ -11,5 +11,5 @@ Route::post('tasks/create', "TaskController@create")
 Route::get('tasks/fetch', "TaskController@fetch")
 	 ->name('tasks.fetch');
 
-Route::update('tasks/finish', "TaskController@finish")
+Route::put('tasks/finish', "TaskController@finish")
 	 ->name('tasks.finish');
