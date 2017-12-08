@@ -12,6 +12,11 @@ use Components\Tasks\Models\Task;
 
 class TaskController extends Controller
 {
+	public function show()
+	{
+		return view("tasks.show", ["tasks" => Task::all()]);
+	}
+
 	public function create(Request $request)
 	{
 		$task = new Task();

@@ -1,5 +1,8 @@
 <?php
 
+Route::get('tasks', "TaskController@show")
+     ->name('tasks.show');
+
 Route::get('tasks/create', function(){
 								return view('tasks.view_create');
 						   })
